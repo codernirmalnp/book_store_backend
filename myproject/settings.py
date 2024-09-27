@@ -51,6 +51,10 @@ REST_FRAMEWORK = {
     ],
    
 }
+CSRF_TRUSTED_ORIGINS = [
+    'https://book-store-frontend-react.vercel.app/'
+    'https://book-store-backend-i9b4.onrender.com',
+]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -60,6 +64,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+
    
 ]
 CORS_ALLOW_ALL_ORIGINS = True
