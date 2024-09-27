@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--3%t_2c2u8$6bw4fc@vv67cs58o4yo9$6oy$6)i&27i#13m#oz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://book-store-frontend-react.vercel.app','https://book-store-backend-i9b4.onrender.com']
+ALLOWED_HOSTS = ['book-store-frontend-react.vercel.app','book-store-backend-i9b4.onrender.com']
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
